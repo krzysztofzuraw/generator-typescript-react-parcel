@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Krzysztof Żuraw",
+      "authorEmail": "krzysztofzuraw@fastmail.com",
+      "authorUrl": "krzysztofzuraw.com"
+    }
+  }
+}
