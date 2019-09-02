@@ -7,10 +7,8 @@ export const saveState = (state: Types.RootState): boolean => {
     return false;
   }
 
-  const { auth } = state;
-
   try {
-    const serializedState = JSON.stringify({ auth });
+    const serializedState = JSON.stringify(state);
     localStorage.setItem(APP_SERIALIZED_STATE_KEY, serializedState);
     return true;
   } catch (error) {
