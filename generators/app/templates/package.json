@@ -1,0 +1,19 @@
+{
+  "name": "<%= appname %>",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && parcel build index.html",
+    "tsc": "tsc --project . --noEmit",
+    "lint": "eslint src/*",
+    "prelint": "pretty-quick",
+    "reinstall": "rimraf node_modules && npm install",
+    "test": "jest --config jest.config.js"
+  },
+  "keywords": [],
+  "author": "<%= author %>",
+  "license": "MIT"
+}
