@@ -9,7 +9,7 @@ module.exports = class extends Generator {
     this.log(
       yosay(
         `Welcome to the supreme ${chalk.red(
-          "generator-typescript-react-parcel"
+          "generator-typescript-react-parcel:container"
         )} generator!`
       )
     );
