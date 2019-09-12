@@ -25,7 +25,8 @@ describe("generator-typescript-react-parcel:app", () => {
       ".dependabot/config.yml",
       "typings/",
       "src/",
-      ".github/main.workflow"
+      ".github/main.workflow",
+      "README.md"
     ]);
   });
 

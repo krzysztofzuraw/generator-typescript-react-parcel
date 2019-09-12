@@ -17,6 +17,15 @@ Then generate your new project:
 yo typescript-react-parcel
 ```
 
+You can also use other generators:
+
+```bash
+yo typescript-react-parcel:component
+yo typescript-react-parcel:container
+yo typescript-react-parcel:feature
+yo typescript-react-parcel:model
+```
+
 ## Getting To Know Yeoman
 
 - Yeoman has a heart of gold.
